@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <section>
+    <form name="ethForm">
+      <div>
+        <label for="eth">Введите фразу для генерации ETH адреса</label>
+        <input type="text" id="eth" name="eth">
+        <input type="button" onclick="getEth()" value="Get address">
+        <label id="ethAddress"></label>
+      </div>
+    </form>
+
+    <form name="btcForm">
+      <div>
+        <label for="btc">Введите фразу для генерации BTC адреса</label>
+        <input type="text" id="btc" name="btc">
+        <input type="button" onclick="getBtc()" value="Get address">
+        <label id="btcAddress"></label>
+      </div>
+    </form>
+  </section>
+
+  <script src="dist/bundle.js"></script>
+</body>
+</html>
