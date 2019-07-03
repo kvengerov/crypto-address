@@ -1,6 +1,6 @@
 var bitcore = require('bitcore-lib');
 
-function getBtc() {
+export function getBtc() {
   var string = document.querySelector<HTMLInputElement>('input#btc').value;
   console.log(string);
 
