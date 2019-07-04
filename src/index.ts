@@ -1,4 +1,4 @@
-import {getEth} from './eth-controller';
+import {getEth, getBalance} from './eth-controller';
 import {getBtc} from './btc-controller';
 
 export function getEthAdrress() {
@@ -7,4 +7,8 @@ export function getEthAdrress() {
 
 export function getBtcAdrress() {
   getBtc();
+}
+
+export function checkBalance() {
+  getBalance();
 }

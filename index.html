@@ -10,19 +10,31 @@
   <section>
     <form name="ethForm">
       <div>
-        <label for="eth">Введите фразу для генерации ETH адреса</label>
-        <input type="text" id="eth" name="eth">
-        <input type="button" onclick="myLib.getEthAdrress()" value="Get address">
-        <label id="ethAddress"></label>
+        <label for="eth">Введите фразу для генерации ETH адреса</label> <br>
+        <input type="text" id="eth" name="eth"><br>
+        <div>
+          <input type="button" onclick="myLib.getEthAdrress()" value="Get address">
+          <input type="button" onclick="myLib.checkBalance()" value="Check balance"><br>
+        </div>
+        <div>
+          <p>Your address:</p><label id="ethAddress"></label><br>
+          <p>Your private key:</p><label id="ethprivateKey"></label><br>
+          <p>Your balance:</p><label id="ethCheckBalance"></label><br>
+        </div>
       </div>
     </form>
 
+    <hr>
     <form name="btcForm">
       <div>
         <label for="btc">Введите фразу для генерации BTC адреса</label>
         <input type="text" id="btc" name="btc">
         <input type="button" onclick="myLib.getBtcAdrress()" value="Get address">
-        <label id="btcAddress"></label>
+        <div>
+          <p>Your address:</p><label id="btcAddress"></label><br>
+          <p>Your private key:</p><label id="btcprivateKey"></label><br>
+          <p>Your balance:</p><label id="btcCheckBalance"></label><br>
+        </div>
       </div>
     </form>
   </section>
