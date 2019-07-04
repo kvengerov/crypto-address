@@ -14,5 +14,3 @@ export function getBtc() {
 
   document.getElementById('btcAddress').innerHTML = address;
 }
-
-exports.modules = getBtc;
