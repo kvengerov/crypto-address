@@ -2,8 +2,9 @@
   "name": "create-wallet",
   "version": "1.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server&&webpack --progress"
+    "watch": "webpack --mode development --progress --watch",
+    "build": "webpack --mode production --progress",
+    "dev": "webpack-dev-server"
   },
   "author": "",
   "license": "ISC",
