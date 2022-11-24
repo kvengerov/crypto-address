@@ -8,7 +8,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bitcore-lib": "^8.3.4",
+    "bitcore-lib": "^8.25.40",
     "ethers": "^4.0.32",
     "ts-loader": "^6.0.4",
     "typescript": "^3.5.2",
